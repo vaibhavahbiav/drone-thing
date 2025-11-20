@@ -17,7 +17,7 @@ export default function WebRTCMock({ connected }) {
             {connected ? (
                 <video
                     ref={videoRef}
-                    src="/assets/sample-drone-footage.mp4"
+                    src="assets/sample-drone-footage.mp4"
                     autoPlay
                     loop
                     muted
